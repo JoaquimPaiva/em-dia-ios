@@ -8,9 +8,22 @@
   "provider": "github",
   "codemagic": {},
   "bitrise": {},
-  "ios": {},
-  "flutter": {
-    "watch": {}
+  "ios": {
+  	"path": "ios",
+  	"bundleId": "pt.duorrvm.emdia",
+  	"configuration": "Release"
+	},
+  "defaultProfile": "preview",
+  "profiles": {
+    "preview": {
+      "env": {
+        "EXPO_PUBLIC_SUPABASE_URL": "https://vyyuzvxfstlngqrslakj.supabase.co",
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "A_TUA_CHAVE_sb_publishable"
+      }
+    }
+  }
+    "flutter": {
+      "watch": {}
   },
   "reactNative": {
     "expo": true
