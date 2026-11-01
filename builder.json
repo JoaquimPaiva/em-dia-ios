@@ -9,21 +9,21 @@
   "codemagic": {},
   "bitrise": {},
   "ios": {
-  	"path": "ios",
-  	"bundleId": "pt.duorrvm.emdia",
-  	"configuration": "Release"
-	},
+    "path": "ios",
+    "bundleId": "pt.duorrvm.emdia",
+    "configuration": "Release"
+  },
   "defaultProfile": "preview",
   "profiles": {
     "preview": {
       "env": {
         "EXPO_PUBLIC_SUPABASE_URL": "https://vyyuzvxfstlngqrslakj.supabase.co",
-        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "A_TUA_CHAVE_sb_publishable"
+        "EXPO_PUBLIC_SUPABASE_PUBLISHABLE_KEY": "sb_publishable_CKiyjTAQ3ZQJRSqoOHODMQ_3GsIHXn6"
       }
     }
-  }
-    "flutter": {
-      "watch": {}
+  },
+  "flutter": {
+    "watch": {}
   },
   "reactNative": {
     "expo": true
