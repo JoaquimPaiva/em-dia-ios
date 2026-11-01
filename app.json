@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "Em Dia",
+    "slug": "em-dia-ios",
+    "scheme": "emdia",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "pt.duorrvm.emdia"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Em Dia usa a câmara para ler o QR de ligação à TV."
+        }
+      ],
+      "expo-font",
+      "@react-native-community/datetimepicker"
+    ]
+  }
+}
