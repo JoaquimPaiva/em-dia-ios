@@ -1,0 +1,20 @@
+{
+  "project": "em-dia-ios",
+  "platform": "ios",
+  "github": {
+    "owner": "JoaquimPaiva",
+    "repo": "em-dia-ios"
+  },
+  "provider": "github",
+  "codemagic": {},
+  "bitrise": {},
+  "ios": {},
+  "flutter": {
+    "watch": {}
+  },
+  "reactNative": {
+    "expo": true
+  },
+  "kmp": {},
+  "mobai": {}
+}
